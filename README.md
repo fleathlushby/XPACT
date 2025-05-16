@@ -7,4 +7,5 @@
 
 If you use this code or data in your research, please cite:
 
+➤ [BibTeX](xfactor.bib)
 
