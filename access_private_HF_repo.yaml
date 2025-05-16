@@ -1,5 +1,0 @@
-- name: Clone private HF repo
-  run: |
-    git clone https://huggingface.co/datasets/SEAL-IIT-KGP/XPACT.git
-  env:
-    HF_TOKEN: ${{ secrets.HF_TOKEN }}
