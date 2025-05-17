@@ -44,31 +44,46 @@ To use the images from Hugging Face in this GitHub-hosted deep learning code, fo
 ### Step 1: Install `huggingface_hub`
 
 ```bash
-pip install huggingface_hub```
+pip install huggingface_hub
+```
 
 ### Step 2: Log in to Hugging Face
 
-```bash
-huggingface-cli login     (Use our token with read access.)
+To authenticate your machine with Hugging Face:
 
-### Step 3: Clone the dataset locally
+```bash
+huggingface-cli login
+```
+
+---
+
+### Step 3: Clone the Dataset Locally
+
+#### Option A: Clone using Git (Recommended for full dataset)
 
 ```bash
 git lfs install
 git clone https://huggingface.co/datasets/SEAL-IIT-KGP/XPACT
+```
 
-Or use the Hub directly in Python:
+This will clone the full dataset into a local folder named `XPACT`.
+
+#### Option B: Download a specific file using the Python API
+
+You can also download individual files using `huggingface_hub`:
 
 ```python
 from huggingface_hub import hf_hub_download
 
-# Example: download a specific file
 file_path = hf_hub_download(
     repo_id="SEAL-IIT-KGP/XPACT",
     filename="2D_CT_slices_XY_plane/Arduino_original/Arduino1_original_set1.zip"
 )
 
- Additionally, this repository includes the codebase of our recently published work "X-Factor: Deep Learning-based PCB Counterfeit Detection using X-ray CT Techniques for Hardware Assurance"
+print("Downloaded to:", file_path)
+```
+
+ Apart from the Hugging Face dataset, this repository additionally includes the codebase of our recently published work "X-Factor: Deep Learning-based PCB Counterfeit Detection using X-ray CT Techniques for Hardware Assurance"
 
  The codebase corresponds to five different Convolutional Neural Network (CNN) models which are transfer-learned on ImageNet dataset and fine tuned for the specific X-ray CT dataset. 
 
