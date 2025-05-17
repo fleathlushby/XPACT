@@ -44,7 +44,7 @@ To use the images from Hugging Face in this GitHub-hosted deep learning code, fo
 ### Step 1: Install `huggingface_hub`
 
 ```bash
-pip install huggingface_hub
+pip install huggingface_hub```
 
 ### Step 2: Log in to Hugging Face
 
