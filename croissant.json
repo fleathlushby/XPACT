@@ -1,0 +1,855 @@
+{
+  "@context": {
+  "@vocab": "https://schema.org/",
+  "croissant": "https://w3id.org/croissant/context/v1"
+},
+  "@type": "Dataset",
+  "name": "XPACT",
+  "description": "Croissant metadata for private dataset SEAL-IIT-KGP/XPACT",
+  "distribution": [
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino10_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino10_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "953fc0137baf2ad6f9c965339a87f1e04f31b6a6b2f40e449aa4121827018999"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino1_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino1_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "202e8e76818a39976e80ca3986d51aa79d94a31d9476eb3a2420e60a715da6d5"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino2_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino2_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1efbefcde7721d955994edb42df2344bf12ab325022dc4f6ca99ce5ba154187c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino3_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino3_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "73003d712f10263baf215d02615558b9df6cda1f61ba20db92ae30589e647642"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino4_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino4_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "38ea1616c8d7a7dfeca9dbdce18a6610273bf8f145a7998a62b098b4b6a6cd81"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino5_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino5_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "e29f1bec623f45a43159ff67a0110ea0f185afe410e913da0952ab9ae4883550"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino6_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino6_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "89a2418cec02446a2eaeb32612cd0a4d48cfe77725a70f024c589df6539bdcec"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino7_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino7_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6e23eec2a903c63e18249cbaaf97e904ef369f64ccd40390df74e69c4bd033b6"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino8_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino8_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d1eda62ea4712b0fda57895fda6f84f2b78e291ca0732dc9863d10e08c9a6278"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino9_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_duplicate/Arduino9_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0f7abc28b693bc02fe24983551d95f1152bf793089aeafb5a3310b74766f0c8d"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino10_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino10_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a3c9216aa6fe9d8beada4c5985440c257524e47126ee23b7cd893eea28bfe173"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7d67ea427fae94787eeb2b739fabb2f7b9aa613f962ebfc37afc447ea0b5778e"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino1_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino1_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "73f2b6a261f58c084467938a07ba68d84655c2cf277f9323850bc2834e3bf429"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino2_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino2_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6f340407dfa12eb0df633190e7a4a6254d53fb3e767b43e18367b4b15c4eed4d"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino2_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino2_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a9c30d213a159ce45d09b857b476c560b8c3e222b1ec28183017be78f5ff236f"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino3_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino3_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "3da27f993fd39fc8c7628d2817e48d2aad391599a41cd5505c39c9c1aaea4751"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino3_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino3_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2de64f24d3477e2a163b4e48440eddaea1368fdf5e032ffde8771774e7c7e322"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino4_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino4_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "03ba3f14d212f47167dac1d0f45cfb808883230e1661ffda0f78bb5bf24b5c13"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino4_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino4_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "cf96b2fa9c0aca05c5fdc2896cbc567ae5f8f5c740cf4a13bb83a0a6f6a078ce"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d403aa4e8892e083b1e5b7d10618caa7f4621f681438756650c1488676b8a6ab"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino5_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino5_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2fdb822f3120a6f9baf146b68de292beb1c8c496dc396f8b4e903b1ac887fbb2"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino6_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino6_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c73725b0543d3a81a789a8f5746375c00a37cd556c9d25fe49ac518af6dbc315"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino7_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino7_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a26662d3bd7e05737a159b2f39eafaac674b1df3dbb6b97f11e46795375f47e7"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino8_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino8_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "8e64657c27f84460071043c37275362a375caee19de719d7af18e5ed987b3501"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Arduino9_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Arduino_original/Arduino9_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b8159e7b96084eec908313e8e112da480380d66a89123cfc68863942f876753c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_asus_tinker_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Asus_Tinker/asus_tinker_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0376f7860530641b627bc6f4b8b45f0ef8116de54f3215a34dcefae1f18907c1"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_basys3_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Basys3_FPGA/basys3_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7efcecec221d0cd388d32b35af13fb1285e239e1919a6c63f359d9dec0c61af4"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_cc3220sf_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/CC3200SF_Texas_Instruments/cc3220sf_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "3f3bdb30543219d3c677b91965c2c46419c54a1789bacf153c338917821b9b68"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_coraz7_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/CoraZ7_FPGA/coraz7_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "e4556d5f90dab1c12dd53ae602cfc1c8e7d784f9ec18cb0e25832b9cedcab962"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_freescale_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Freescale/freescale_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "737e2f98c87d1aa8c5c4268a1c766318116853b4d2e598a303c1f25c60dcfbee"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Nexys_right.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Nexys4DDR/Nexys_right.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f365a4ad70cd5dfcf52db0f69e839340b3185cacd3e1a54c7cbf9164a701f68b"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_nexys_left.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/Nexys4DDR/nexys_left.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f3edd96786152a4168f31458c61df4bf1ca6cf293cb872666bbc10fb149136de"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c00d96ed94933f713ca32ee0d77f4da03ceb0e41f3aebaa161737f8f6ca1d8a5"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi1_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi1_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f971272cc559894bcd5249f181527932186b4afb118da91962ab01de3bae70d8"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi2_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi2_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "8d4a106261440817854cf5986d4ff6f52936a2b14e06f1479fd76f45f3cdfb41"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi3_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi3_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "fd139409f69f76f5b2dccd2d2dc6d59b25fe87e842e86d9947badd0e54f72f41"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi4_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi4_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "528259cc36f8de347b659ee5cd1708a033bf715329409c304823253a69b96049"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_Rpi5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/RaspberryPi4/Rpi5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "3cbbf300a9653b80f8a2824f1807557fb746483315c4030ec49fda753920612b"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7143dab00f5582ff994fc6552b6883f63caf2e134cd1eec980111364398a6715"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM1_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM1_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d87028638e07e23a0039243de4b45a4da6689b3389260703c341cd96b00ed618"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM2_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM2_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "52f0ac24d2cc52887e2a06bc50e564d96c1b4984d59ae988e178981df01caf70"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM3_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM3_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "63fe93682a9171dcfd312a820c1cc1e95ac3378a0f63ad9c43898f3ff8ff822a"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM4_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM4_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f739940286773d4abf39b5d2d76a695c47951a69830e82d0cb8723ae1e96dacd"
+    },
+    {
+      "@type": "FileObject",
+      "name": "CTslice_STM5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/2D_CT_slices_XY_plane/STM32F407G/STM5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f6a0a7bbcbfb63e36f8b8c8fa4b8b06ed581090accea6daca9acbe15e313badc"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino10_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino10_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7b7314ecfbd08a2798d6238bbf1b390691425ab20ae478b112f7e46cebcfcfc3"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino1_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino1_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5ec1b46b567208dd84c9ae5d4e788804a4cd33f815160bf3b489049f5d083b75"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino2_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino2_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1a912ad65d2eb7734623f7a95ee7acbc28220a91435fe1166adbde58a259270c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino3_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino3_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "ad6ca23c0786d5f7c7d7a321ce8c47757d2113aee3b757fc527c77a18fb12249"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino4_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino4_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a53822eab5b0297b281ecc0428a5c7b8a1757524c4dd9ccb98d1b396f6c6e172"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino5_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino5_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1ef51d17997df03dca91cec490e94818ef292b1b34b54a1d450481a62c26d3fd"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino6_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino6_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "180eb85240c0ea44dddd9dd465eb9147707a807bac4c248fae8a302f6dbf6e5d"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino7_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino7_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "750684439395927a6708dc1d90659cf3adac4072958874c76086dc45cc832186"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino8_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino8_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2b325176b34e31cce98daad5d577b83ed8527fb6fd57bad340cc7824a349406f"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino9_duplicate.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_duplicate/Arduino9_duplicate.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "0ed76284e676421fe300bcdb0c0e335b7dca3b50cbc2d54e565ac4ac6b71026c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino10_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino10_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "450cd41fe7ff9b4ee944531f08b605334062de967226d4fd8b9af5526efb57e6"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "56506dd5a9d6084c61782f0fed7a710a7bbdd7a54d63b1179ccebead4893bfea"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino1_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino1_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "dac0b7bf1875a6f471dbafca6cdd3ed76c1231b44cf58708d8c90cdc19075983"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino2_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino2_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1e0b52d45d467fbffe9ea86737880316939e9ab86ab07749a13fa680bcee5e7a"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino3_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino3_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5d9fa622f52f574e0a6c7ecde770b9a6428f6e25b1ad7ec76de58fcf741b2141"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino4_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino4_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b44c4be6496f4179aa8f11e6174d327b0da43d57e5369db6d10498c31e0fda12"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino4_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino4_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "92214c895511ac187a1c76c9753dfe7665a8cadbdbf23b07359627a6cbfee28d"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c3cd0f0f20a9455973a34c9689236328c908562c6fc1691a4c53328851c8345b"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino7_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino7_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5475959bf86d500aaca6231011a4e0f5b0e9850791ecc9d79037e16997781dbf"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino8_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino8_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "64e3bc2435e2a601416bff816ba7f6f24485be74ecfd8b9e501ed91d6c582f07"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino9_original_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino9_original_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b57af7203b62a496004decf72e14eb7e68918000c84f6af3bd692ab8b48b0db9"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino_2_angled_dicom.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino_2_angled_dicom.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "598e8b255dcd14a921d79c9fb5768029d9547167e04338a2b301d2311bbf3097"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Arduino_3_angled_dicom.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Arduino_original/Arduino_3_angled_dicom.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "8b742cd45e569d34dc4005c4dfd5d85b7f4cac8b67d86bc0446d3b2bdc3c3c15"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Nexys_left.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Nexys4DDR/Nexys_left.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "baf73cf8e052a2c03c1d0e78886df188fc9cfdc3a1a4a65a4c15fd9d933fe7f4"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Nexys_right.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/Nexys4DDR/Nexys_right.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1c95f02781576258a83b31faf1f879ef41fe991a902b8f6434a995e84d789a1b"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Rpi1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/RaspberryPi4/Rpi1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f6b6970a83b574b2493a6edca71500bc4c19f257eea7727012fa82a77b0a3e98"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Rpi1_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/RaspberryPi4/Rpi1_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2d9a8b3c580e8e864645288a6892872bf660f9cdd7de65d5a84812b252d3a5ca"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Rpi2_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/RaspberryPi4/Rpi2_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "bb202dcb9e3655996cd5754c1ae4c89c054621e71746dd52c2361892f6c6e678"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Rpi3_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/RaspberryPi4/Rpi3_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "43c157adfe6ebdffc260666c99990417f8bd0236a7b0e03df09d7c74144f7060"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_Rpi5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/RaspberryPi4/Rpi5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "31bacc01ffc50f36f1c704e3ec5fe17f884e1d84984ce3f5e9a9a87cbee653dd"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM1_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM1_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1dc81fbbb539a23d67ecbf6b62b8c96bafa3fb6652344e4874a5ebf9e3f48096"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM2_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM2_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b81c0f4dbf0520487eaa223aefabda9677815334ce5a05eba72d095d61a60494"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM3_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM3_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "28854cd8b7951643a86690881d20424ec17cf2dee0a32597bc95398134b81f18"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM4_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM4_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "665d3b7720284288d611dcaaf18658064d2142ac3061f4674cde6e09467e907d"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM5_angled.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM5_angled.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "27f467a48735f6b141b8c7bd9881ed073617db1e1f78137cb6348ab4d28670ee"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_STM_dicom.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/STM32F407G/STM_dicom.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "151860b606022660f089399a307f4ea948b1e08c965b29b46c866e089c45716c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_asus_tinker_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/asus_tinker_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "a3e5b0bca6bfda3d93e408a300246e81e923b20caff5f3ef9eb4f0c0d7a84434"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_basys3_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/basys3_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "badef51454bb60e65e2afed5dae707edfef4ec3158eeca6641be3d6ab9d953c1"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_cc3220sf_set1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/cc3220sf_set1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5587b34cc6b4c96a438a6b8bd93c393f143d7a9c6324cd33ee641f4c948f51e2"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_coraz7_dicom.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/coraz7_dicom.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f9021831498bdfa064bf5bca804d956ae8eca666b42ff1e50b7ed516716aeeab"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Dicom_freescale_dicom.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/dicom_images/freescale_dicom.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "ccdd585da7492866f4cc721622b60d7e77711756527ec114bb9e56cfa3796189"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Duplicate_10.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Duplicate_10.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "05376c3b2802645349975e660e8e75a67d2198b77ed994feb173dc51aefa5203"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Duplicate_7.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Duplicate_7.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f83f1fd91e47150753b97995cefd230016c8f42c3c2d79b566f6b8ff22a29ddd"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Duplicate_8.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Duplicate_8.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5a8abe78939e7f765b2dd1fb53562d3b048d75adeb221652f82c6449703a38e1"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Duplicate_9.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Duplicate_9.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "523d1ab7aa88a9a45166b8a8771ea53a83dff584441fdc4658f4b1763e81e550"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Original_10.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Original_10.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "205666d800350fd458ae037014e0eec0e4627c491fcdfd218ac496b3315d30c9"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Original_8.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Original_8.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "ddccfcd6204c7231b49f1420b577ea3737809912077fab03de5d121dc752d612"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_Original_9.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_Original_9.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "316872e89c2abddb2ffa6107d82347c6e6ab7f98dec595aecc2a9898348a8436"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f55e1fb6ca944e6bdafcc8ec687aaed571795d99dbbb9ba18e4be3be4af53b8f"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_2.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_2.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "cd04ab4a1594ce4c1a6106e49170d908cbb7b18e659ff46059e7e3d7a982cd7e"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_3.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_3.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "380eb2a1fa3d7a1fcee684b785dd4fd92d17e6b16f132f4d67b7c862e5668477"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_4.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_4.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "18f2a65d65e72d667bf39e8e9e160b4f8a4ab1be5f1f7b29c81c6c6837369b4e"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_5.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_5.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d74257311f7f80fff0d1ed6592aa61e10bae2c158b66b7f442c6fe12e22818d7"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_duplicate_6.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_duplicate_6.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "c0cc7240253901f842027f00e28a65986b6fc6dca988fa9a9dc2c89a58beb7f6"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_2.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_2.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "5b9afe023346ff527424059d40f0b6251816551cb753cc3f137f4b6fb75d8a5f"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_3.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_3.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7e94b11eb7979f6b70c1ce92a4b78d2f3ac96ee660b3ce9d0cef6993e590ff92"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_4.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_4.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "f85a2cdd4957fe27a5b35f007c465a27ece9d726a4c8c838a48ff0df12ce0d21"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_5.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_5.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "6dd54b19b5ec26aa40ddb60600f4bb8b4ca262b1d021fcc61f774194d89a18d8"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_6.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_6.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "2956212645fdd25b5306a5ba1b3271169f858fd7e879bfd4a0c378ca7b05fa8e"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Arduino_original_7.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Arduino_original_7.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7be328c358eb95ed586f91b43c47375b73e458cee83f5b4a03c46209b5ca64ce"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Basys_3.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Basys_3.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "adbb863cf83550c24f549fd2b37a622bb1055d57b39e7e9f6b530ff36bccf597"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_CC3220SF.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/CC3220SF.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d84626fac8a70fd2d68a7b4dccc83d38547affde8d945b327bbcab58d8c69d05"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Cora_Z7.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Cora_Z7.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "b549ab6288ed0d548bbd227617d9ceec154ff734dbf8696271ce52f72841cc1f"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Freescale_PCB.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Freescale_PCB.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "139ed10f1255b0ed1ffabcf2460ca02c3b3f11b5da5b19123cec837233b9774a"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Nexys_board.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Nexys_board.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "182271d4313f4e71502617ea060857f571b4f6f3bbfc02bd6fc7ee36594e3079"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Raspberry_Pi_1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Raspberry_Pi_1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "1b2bb2eb1447992dd19821f037548605f44548d58c0ab34752e15c5f9729e6a3"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Raspberry_Pi_2.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Raspberry_Pi_2.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "d90e96dab879c07335c6504bef658fb6954a3d55e95cdaba92acdb8a5252b8c7"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Raspberry_Pi_3.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Raspberry_Pi_3.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "efd99945ad079848fed982cc69098096df854800fb3bd46cf654b6c3bf18ab1c"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Raspberry_Pi_4.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Raspberry_Pi_4.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "34995a4d58e09dbe58d22bd360041bbab1dde98df03c31258ce10e9a10bc2df7"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Raspberry_Pi_5.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Raspberry_Pi_5.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "fe6ba920c1eb41299c5272d0d6acb196f1db711b1b8628fd67d9fd10862433ef"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_STM_32_1.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/STM_32_1.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "490182461ecaca9656be2becf2c9666205967eaa7ef7bee2e5a057216b81699e"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_STM_32_2.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/STM_32_2.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "9149aeb05060f016c2226ae5a08050d43b01b955b2deaba8b2efcf70a8108e17"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_STM_32_3.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/STM_32_3.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "588ada19b799c6fee6915d302fc87279e0859cf69f4dc8a259a199f0932e0513"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_STM_32_4.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/STM_32_4.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "fce0af1cd8bdbcb0eb72a09312f3d67081b73b6e0df03a713fac4724bc1b7968"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_STM_32_5.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/STM_32_5.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "7640e9e0ef3415ffc1ff1efbb99b0eab801018b1ab58e99ddf59292a73e34eb8"
+    },
+    {
+      "@type": "FileObject",
+      "name": "Projection_Tinker_PCB.zip",
+      "contentUrl": "hf://SEAL-IIT-KGP/XPACT@main/projection_images/Tinker_PCB.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "ab03df680b5bd96bcdcfd9801055755f58be63f6e93cc31f1452f488f5b76720"
+    }
+  ],
+  "data": {
+    "@type": "Table",
+    "columns": []
+  }
+}
